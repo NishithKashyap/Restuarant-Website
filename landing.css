@@ -1,0 +1,317 @@
+body
+{
+    margin: 0;
+}
+
+.top-background, .contact-us
+{
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu
+{
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu-ul
+{
+    padding: 10px;
+}
+
+.menu-ul li
+{
+    display: inline-block;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+}
+
+a
+{
+    border-bottom: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    border-bottom: 1px solid white;
+}
+
+.sticky
+{
+    background: #0f4c75;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.sticky ul
+{
+    padding: 0;
+    margin: 10px;
+}
+
+.page-title
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 200px;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 0 0 5px #0f4c75;
+}
+
+.description, .title
+{
+    font-variant: small-caps;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.page-blocks
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title
+{
+    letter-spacing: 10px;
+    color: #0f4c75;   
+}
+
+.design img
+{
+    height: 35%;
+    max-width: 95%;
+    width: 33%;
+    margin: 15px;
+    padding: 5px;
+}
+
+.more-images-btn
+{
+    background: transparent;
+    border: 2px solid #0f4c75;
+    color: #0f4c75;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
+} 
+
+.more-images-btn:hover
+{
+    background: #0f4c75;
+    color: white;
+    transition: all 0.5s;
+}
+
+.flex-block
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.why-us-flex-item
+{
+    background: #0f4c75;
+    color: white;
+    width: 20%;
+    padding: 40px;
+    margin: 20px;
+}
+
+.block-label
+{
+    font-variant: small-caps;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.block-description
+{
+    text-align: justify;
+}
+
+.block-number
+{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.contact-us-flex-item
+{
+    background: #0f4c75;
+    color: white;
+    height: 450px;
+    width: 45%;
+    padding: 0px;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+
+.contact-us
+{
+    background-image: url("img/photo-1554118811-1e0d58224f24.jpg");
+}
+
+.contact-us-text
+{
+    padding: 200px 20px;
+    font-size: 50px;
+    background: rgba(0,0,0,0.5);
+}
+
+.booking-form
+{
+    padding: 20px;
+}
+
+.booking-form input, textarea
+{
+    width: 60%;
+    max-width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    text-align: center;
+    color: #0f4c75;
+    font-size: 16px;
+}
+
+.booking-form textarea
+{
+    
+    height: 100px;
+    max-height: 100px;
+    max-width: 60%;
+    overflow-y:scroll;
+}
+
+.booking-btn
+{
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 15px;
+    outline: none;
+}
+
+.booking-btn:hover
+{
+    background: white;
+    color: #0f4c75;
+}
+
+.footer
+{
+    background: #0f4c75;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.location
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 27%;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    padding: 20px;
+}
+
+.address
+{
+    font-weight: lighter;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.social-media-icons i
+{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.copyrights
+{
+    font-size: 16px;
+    text-align: center;
+    margin: 15px;
+}
+
+h2 span{
+    font-family: cursive;
+    display: table-cell;
+    animation: animate 2s linear infinite;
+}
+
+h2 span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+
+h2 span:nth-child(2)
+{
+    animation-delay: 0.25s;
+}
+
+h2 span:nth-child(3)
+{
+    animation-delay: 0.5s;
+}
+
+h2 span:nth-child(4)
+{
+    animation-delay: 0.75s;
+}
+
+h2 span:nth-child(5)
+{
+    animation-delay: 1s;
+}
+
+h2 span:nth-child(6)
+{
+    animation-delay: 1.250s;
+}
+
+h2 span:nth-child(7)
+{
+    animation-delay: 1.50s;
+}
+
+@keyframes animate
+{
+    0%,100%
+    {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #00b3ff,
+                    0 0 20px #00b3ff,
+                    0 0 40px #00b3ff,
+                    0 0 80px #00b3ff,
+                    0 0 120px #00b3ff,
+                    0 0 200px #00b3ff,
+                    0 0 300px #00b3ff;
+    }
+    5%,95%
+    {
+        color:white;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
